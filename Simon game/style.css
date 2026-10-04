@@ -1,0 +1,59 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+html body, body body {
+  background-color: rgb(83, 83, 83);
+  text-align: center;
+}
+html h1, body h1 {
+  font-weight: 500;
+  color: transparent;
+  padding: 20px 10px;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-stroke: 3px rgb(75, 179, 73);
+}
+html h2, body h2 {
+  font-weight: 200;
+  color: rgb(179, 158, 158);
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.container .btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10Px solid black;
+  margin: 1rem;
+}
+.container .line1 .btn.c1 {
+  background-color: #9B59B6;
+}
+.container .line1 .btn.c2 {
+  background-color: #E67E22;
+}
+.container .line2 .btn.c3 {
+  background-color: #1ABC9C;
+}
+.container .line2 .btn.c4 {
+  background-color: #E84393;
+}
+.container .flash {
+  background-color: white !important;
+}
+.container .userFlash {
+  background-color: white !important;
+}/*# sourceMappingURL=style.css.map */
